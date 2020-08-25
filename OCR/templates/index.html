@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title color="white">OPTICAL CHARACTER RECOGNITION</title>
+        <link rel="stylesheet" href="mainpageStyle.css">
+        <link rel="icon" href="https://blog.frase.io/wp-content/uploads/2018/10/summaries.png">
+
+    <style>
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+    text-align: justify;
+}
+a {
+    font-family: 'Courier New', Courier, monospace;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: purple;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url('https://eskipaper.com/images/purple-wallpaper-13.jpg');
+}
+
+#about {
+    background-image:  url('https://untitledfirm.com/wp-content/uploads/2019/01/neural-networks_featured-image.jpg');
+}
+
+#contact {
+    background-image: url('https://www.tcs.com/content/dam/tcs/images/services-and-technology/technologies/artificial-intelligance/ai-trendstudy/ai-trendstudy-web.jpg/_jcr_content/renditions/tcs_1x.jpeg');
+}
+/*'https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label {
+    float: center;
+    width: 10em;
+    margin-right: 1em;
+}
+
+
+    </style>
+    </head>
+
+    <body>
+
+        <header>
+            <img src="https://blog.frase.io/wp-content/uploads/2018/10/summaries.png" class="profile-img" width="60" height="60">
+            <nav>
+                <ul>
+                    <li><a href="#hero" style="color: teal; font-size: larger; font-weight: bold;">Home</a></li>
+                    <li><a href="#about" style="color: teal; font-size: larger; font-weight: bold;">About</a></li>
+                    <li><a href="#contact" style="color: teal; font-size: larger; font-weight: bold;">Try OCR</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/51nU2xLv%2B9L._SY355_.png" class="profile-img" height="300" width="100">
+                    <h1>OPTICAL CHARACTER RECOGNITION</h1>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2 style="color: purple;">About OCR</h2>
+                    <p style="font-size:x-large;">Optical character recognition or optical character reader is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene-photo or from subtitle text superimposed on an image</p>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2 style="color: purple">Try OCR</h2>
+                    <br><br>
+                    <p>
+                      <form method="POST" enctype="multipart/form-data">
+                        <p style="color: yellowgreen; font-size: large;"><input type="file" name="file">
+                           <input type="submit" value="Upload">
+                        </p>
+                      </form>
+                      </p>
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            © COPYRIGHT BATCH 10 2016-2020
+        </footer>
+    </body>
+</html>

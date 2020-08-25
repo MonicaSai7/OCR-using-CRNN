@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+    text-align: justify;
+}
+a {
+    font-family: 'Courier New', Courier, monospace;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: purple;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url('https://eskipaper.com/images/purple-wallpaper-13.jpg');
+}
+
+#about {
+    background-image:  url('https://untitledfirm.com/wp-content/uploads/2019/01/neural-networks_featured-image.jpg');
+}
+
+#contact {
+    background-image: url('https://www.tcs.com/content/dam/tcs/images/services-and-technology/technologies/artificial-intelligance/ai-trendstudy/ai-trendstudy-web.jpg/_jcr_content/renditions/tcs_1x.jpeg');
+}
+/*'https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label {
+    float: center;
+    width: 10em;
+    margin-right: 1em;
+}
